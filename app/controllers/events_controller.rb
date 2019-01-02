@@ -4,7 +4,6 @@ class EventsController < ApplicationController
 
   def index
     artistList = get_artists()
-
     stateList = ['New York']
 
     url = 'https://edmtrain.com/api/events?&client='+ENV['EDM_API_KEY']
