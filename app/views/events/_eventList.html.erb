@@ -1,0 +1,64 @@
+<section id='eventList' class='container-fluid'>
+
+  <% @dates.keys.each do |month| %>
+    <div class='month-wrapper'>
+      <div class='month'>
+        <%= month %>
+      </div>
+    </div>
+
+    <% @dates[month].each do |day| %>
+      <div class='day'>
+        <%= day %>
+      </div>
+
+      <% @events.each do |event| %>
+        <% if (DateTime.parse(event['date']).strftime('%B %Y') == month) && (DateTime.parse(event['date']).strftime('%a, %b %d') == day) %>
+
+          <div class='event'>
+
+            <div class='title'>
+              <%= event['name'] %>
+            </div>
+
+            <div class='artists'>
+              <% if event['artistList'].length > 1 %>
+                <% artistArr = [] %>
+                <% event['artistList'].each do |artist| %>
+                  <% artistArr << artist['name'] %>
+                <% end %>
+                <%= artistArr.join(', ') %>
+              <% else %>
+                <%= event['artistList'][0]['name'] %>
+              <% end %>
+            </div>
+
+            <div class='venue'>
+              <span class='venueTitle'>
+                <%= event['venue']['name'] %>
+              </span>
+              <span>&#183;</span>
+              <span>
+                <%= event['venue']['location'] %>
+              </span>
+            </div>
+
+            <% lastWeek = (Time.now - (7*24*60*60)).strftime('%Y-%m-%d') %>
+            <% if event['createdDate'] > lastWeek %>
+              <div class='new'>
+                new
+              </div>
+            <% end %>
+
+          </div>
+        <% end %>
+
+      <% end  %>
+
+
+
+    <% end %>
+
+  <% end %>
+
+</section>
