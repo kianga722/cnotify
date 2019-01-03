@@ -20,15 +20,17 @@
     </div>
 
     <div class='artists' style='color:#09a8a2;'>
-      <% if event['artistList'].length > 1 %>
-        <% artistArr = [] %>
-        <% event['artistList'].each do |artist| %>
-          <% artistArr << artist['name'] %>
+      <b>
+        <% if event['artistList'].length > 1 %>
+          <% artistArr = [] %>
+          <% event['artistList'].each do |artist| %>
+            <% artistArr << artist['name'] %>
+          <% end %>
+          <%= artistArr.join(', ') %>
+        <% else %>
+          <%= event['artistList'][0]['name'] %>
         <% end %>
-        <%= artistArr.join(', ') %>
-      <% else %>
-        <%= event['artistList'][0]['name'] %>
-      <% end %>
+      </b>
     </div>
 
     <div class='venue'>
