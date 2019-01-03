@@ -1,1 +1,1 @@
-Playing around with displaying events with API data
+Test of displaying events using API data and sending notification emails
