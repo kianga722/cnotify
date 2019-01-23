@@ -31,9 +31,13 @@
         </a>
         <div class='dropdown-menu'>
           <% @venues.sort.each do |venue| %>
-            <a class='dropdown-item venueTitle' href=''>
-              <%= venue %>
-            </a>
+            <% if @dressCode.include?(venue) %>
+              <a class='dropdown-item venueTitle dressCode' href=''>
+            <% else %>
+              <a class='dropdown-item venueTitle' href=''>
+            <% end %>
+                <%= venue %>
+              </a>
           <% end %>
         </div>
       </li>

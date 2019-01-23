@@ -23,24 +23,34 @@
 
             <div class='artists'>
               <% if event['artistList'].length > 1 %>
-                <% artistArr = [] %>
                 <% event['artistList'].each do |artist| %>
-                  <% artistArr << artist['name'] %>
+                  <% if @artists.include?(artist['name']) %>
+                    <div class='artistSelect'>
+                  <% else %>
+                    <div>
+                  <% end %>
+                      <%= artist['name'] %>
+                    </div>
                 <% end %>
-                <%= artistArr.join(', ') %>
               <% else %>
-                <%= event['artistList'][0]['name'] %>
+                <div class='artistSelect'>
+                  <%= event['artistList'][0]['name'] %>
+                </div>
               <% end %>
             </div>
 
             <div class='venue'>
-              <span class='venueTitle'>
-                <%= event['venue']['name'] %>
-              </span>
-              <span>&#183;</span>
-              <span>
-                <%= event['venue']['location'] %>
-              </span>
+              <% if @dressCode.include?(event['venue']['name']) %>
+                <span class='venueTitle dressCode'>
+              <% else %>
+                <span class='venueTitle'>
+              <% end %>
+                  <%= event['venue']['name'] %>
+                </span>
+                <span>&#183;</span>
+                <span>
+                  <%= event['venue']['location'] %>
+                </span>
             </div>
 
             <% lastWeek = (Time.now - (7*24*60*60)).strftime('%Y-%m-%d') %>

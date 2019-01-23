@@ -1,18 +1,5 @@
 //Logic to manipulate DOM elements
 const DOMLogic = (() => {
-  //Function to color venues with dress code red
-  const venueRed = () => {
-    let dressCode = ['Lavo',
-                     'Marquee',
-                     'Omnia Las Vegas'];
-    const venueTitleAll = document.getElementsByClassName('venueTitle');
-    for (let i=0; i<venueTitleAll.length; i+=1) {
-      if (dressCode.includes(venueTitleAll[i].innerHTML.trim())) {
-        venueTitleAll[i].style.color = 'red';
-      }
-    }
-  }
-
   //Funtion to hide all of page
   const hideAll = () => {
     const eventList = document.getElementById('eventList');
@@ -153,8 +140,6 @@ const DOMLogic = (() => {
 
   //Function to initalize page
   const pageInit = () => {
-    //Highlight venues with dress code
-    venueRed();
     //Show no events message if no events
     noEventsCheck() === true ? noEventsDisplay(true) : noEventsDisplay(false) 
     //Add event listeners to filter dropdown menus

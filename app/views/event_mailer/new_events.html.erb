@@ -19,22 +19,32 @@
       <%= event['name'] %>
     </div>
 
-    <div class='artists' style='color:#09a8a2;'>
+    <div class='artists'>
       <b>
         <% if event['artistList'].length > 1 %>
-          <% artistArr = [] %>
           <% event['artistList'].each do |artist| %>
-            <% artistArr << artist['name'] %>
+            <% if @artists.include?(artist['name']) %>
+              <div class='artistSelect' style='color:red;'>
+            <% else %>
+              <div style='color:#09a8a2;'>
+            <% end %>
+                <%= artist['name'] %>
+              </div>
           <% end %>
-          <%= artistArr.join(', ') %>
         <% else %>
-          <%= event['artistList'][0]['name'] %>
+          <div class='artistSelect' style='color:red;'>
+            <%= event['artistList'][0]['name'] %>
+          </div>
         <% end %>
       </b>
     </div>
 
     <div class='venue'>
-      <span class='venueTitle' style='color:red;'>
+    <% if @dressCode.include?(event['venue']['name']) %>
+      <span class='venueTitle dressCode style='color:#86a50c;'>
+    <% else %>
+      <span class='venueTitle style='color:#700cba;'>
+    <% end %>
         <%= event['venue']['name'] %>
       </span>
       <span>&#183;</span>
