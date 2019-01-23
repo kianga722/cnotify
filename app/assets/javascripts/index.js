@@ -10,11 +10,11 @@ const DOMLogic = (() => {
   //Funtion to show all of page
   const showAll = () => {
     const eventList = document.getElementById('eventList');
-    for (i=0; i<eventList.children.length; i+=1) {
+    for (let i=0; i<eventList.children.length; i+=1) {
       eventList.children[i].classList.remove('hide');
     }
   }
-  //Function to unhide selectedevent day and month
+  //Function to unhide selected event day and month
   const unhideEventDate = (event, type) => {
     let dateFound = false;
     let previousElement = event.previousElementSibling;
@@ -46,7 +46,7 @@ const DOMLogic = (() => {
     hideAll();
     const events = document.getElementsByClassName('event');
     for (let i=0; i<events.length; i+=1) {
-      if (events[i].children[1].innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
+      if (events[i].querySelector('.artistSelect').innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
         //Unhide Event
         events[i].classList.remove('hide');
         //Unhide corresponding day and month
@@ -61,7 +61,7 @@ const DOMLogic = (() => {
     hideAll();
     const events = document.getElementsByClassName('event');
     for (let i=0; i<events.length; i+=1) {
-      if (events[i].children[2].children[0].innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
+      if (events[i].querySelector('.venueTitle').innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
         //Unhide Event
         events[i].classList.remove('hide');
         //Unhide corresponding day and month
@@ -74,6 +74,8 @@ const DOMLogic = (() => {
   const filterMonth = (target) => {
     //Hide all events first and then unhide selected
     hideAll();
+
+    
     const months = document.getElementsByClassName('month');
     for (let i=0; i<months.length; i+=1) {
       if (months[i].innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
@@ -117,15 +119,13 @@ const DOMLogic = (() => {
 
   //Function to check if any events are displayed
   const noEventsCheck = () => {
-    let noEvents = true;
     const eventList = document.getElementById('eventList');
     for (let i=0; i<eventList.children.length; i+=1) {
       if (eventList.children[i].classList.contains('event') && !eventList.children[i].classList.contains('hide')) {
-        noEvents = false;
-        return noEvents;
+        return false;
       }
     }
-    return noEvents;
+    return true;
   }
 
   //Function to show no events message

@@ -24,15 +24,30 @@
         <% if event['artistList'].length > 1 %>
           <% event['artistList'].each do |artist| %>
             <% if @artists.include?(artist['name']) %>
-              <div class='artistSelect' style='color:red;'>
+              <div class='artistSelect' style='color: red;     
+                display: inline-block;
+                padding: 5px 10px;
+                border: 1px solid black;
+                border-radius: 8px;
+                margin: 5px 0;'>
             <% else %>
-              <div style='color:#09a8a2;'>
+              <div style='color:#09a8a2; 
+                display:inline-block;
+                padding: 5px 10px;
+                border: 1px solid black;
+                border-radius: 8px;
+                margin: 5px 0;'>
             <% end %>
                 <%= artist['name'] %>
               </div>
           <% end %>
         <% else %>
-          <div class='artistSelect' style='color:red;'>
+          <div class='artistSelect' style='color: red;
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid black;
+            border-radius: 8px;
+            margin: 5px 0;'>
             <%= event['artistList'][0]['name'] %>
           </div>
         <% end %>
@@ -41,9 +56,9 @@
 
     <div class='venue'>
     <% if @dressCode.include?(event['venue']['name']) %>
-      <span class='venueTitle dressCode style='color:#86a50c;'>
+      <span class='venueTitle dressCode' style='color:#86a50c;'>
     <% else %>
-      <span class='venueTitle style='color:#700cba;'>
+      <span class='venueTitle' style='color:#700cba;'>
     <% end %>
         <%= event['venue']['name'] %>
       </span>
