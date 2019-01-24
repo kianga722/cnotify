@@ -30,7 +30,7 @@ const DOMLogic = (() => {
   //Function to unhide events in a month
   const unhideMonthEvents = (month) => {
     let monthEnd = false;
-    let nextElement = month.parentNode.nextElementSibling;
+    let nextElement = month.nextElementSibling;
     while (!monthEnd) {
       if (!nextElement || nextElement.classList.contains('month-wrapper')) {
         monthEnd = true;
@@ -74,13 +74,11 @@ const DOMLogic = (() => {
   const filterMonth = (target) => {
     //Hide all events first and then unhide selected
     hideAll();
-
-    
-    const months = document.getElementsByClassName('month');
+    const months = document.getElementsByClassName('month-wrapper');
     for (let i=0; i<months.length; i+=1) {
       if (months[i].innerHTML.trim().toLowerCase().includes(target.innerHTML.trim().toLowerCase())) {
         //Unhide Month
-        months[i].parentNode.classList.remove('hide');
+        months[i].querySelector('.month').classList.remove('hide');
         //Unhide corresponding events in the month
         unhideMonthEvents(months[i]);
       }
@@ -92,7 +90,7 @@ const DOMLogic = (() => {
     hideAll();
     const events = document.getElementsByClassName('event');
     for (let i=0; i<events.length; i+=1) {
-      if (events[i].children[3]) {
+      if (events[i].querySelector('.new')) {
         //Unhide Event
         events[i].classList.remove('hide');
         //Unhide corresponding day and month
