@@ -9,7 +9,7 @@ This is a personal project that aims to list concert events curated to my specif
 
 * Built primarily using Ruby on Rails, JavaScript, Bootstrap, and the edmtrain API
 * Displays events from the API with a selected list of artists
-* Allows for further filtering by categories such as venue, recently added, month
+* Allows for further filtering by categories such as Venue, Recently Added, Month, etc.
 * Sends daily e-mail notifications about new events (configured through Heroku Scheduler)
 
 ## Future Improvements
