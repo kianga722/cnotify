@@ -8,6 +8,7 @@ Adaptiv
 Afrojack
 Aguelardo
 Aitor Blond
+Akon
 Alan Walker
 Albert Neve
 Alessia Cara
@@ -42,7 +43,6 @@ Astra
 Astroblast
 Astronaut
 ATB
-A-Trak
 Audien
 Audiobot
 AVE & EFX
@@ -230,6 +230,8 @@ Hook N Sling
 Honka
 Hotlife
 HtPkt
+HWS
+HWS Origins
 Hyper Potions
 HYPRESSION
 Illenium
@@ -394,6 +396,8 @@ Milkman
 Milk N Cookies
 Misterwives
 MKC
+MO
+MØ
 Moiez
 Morgan Page
 MOTi
@@ -414,6 +418,7 @@ Nikki Williams
 Nikko
 Nima Nesta
 Nino Lucarelli
+Nitti Gritti
 No Class
 Nurko
 Olaf Tupik
@@ -426,6 +431,7 @@ Otto Knows
 Patrick Moreno
 Paris & Simo
 Paris Blohm
+Parker
 Patrick Moreno
 Paul Aiden
 Paul Meany
@@ -455,6 +461,7 @@ Radiology
 Ragasur
 Raiden
 Rain Man
+Ran-D
 Raven & Kreyn
 RavenKis
 Ravitez
@@ -526,6 +533,7 @@ SON
 Sophie Francis
 Southlights
 SOVTH
+Snakehips
 Spektrem
 Spencer Tarring
 Spirix
@@ -557,6 +565,7 @@ Teemu
 The Chainsmokers
 The Him
 The Jane Doze
+The Killers
 The Knocks
 The White Panda
 Third Party
@@ -593,6 +602,7 @@ Tritonal
 Trouze
 Troye Sivan
 Tungevaag & Raaban
+Tweekacore
 Two Friends
 Twoloud Sofia To Tokyo
 Tylah Rose
@@ -600,6 +610,7 @@ UBERJAKD
 Ummet Ozcan
 Uppermost
 Urban Cone
+Utada Hikaru
 Vance Joy
 Vanto
 VARGENTA
@@ -624,6 +635,8 @@ WHOLM
 Wiep
 WildVibes
 Wolfgang Gartner
+WW
+W&W
 Xan Griffin
 Xuitcasecity
 Yaro
@@ -638,6 +651,5 @@ Zaeden
 Zatox
 Zedd
 ZHU
-Zombie Nation
 Zonderling
 Zookeeper
