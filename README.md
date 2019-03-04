@@ -1,5 +1,5 @@
 # cnotify
-This is a personal project that aims to display concert events curated to my specific interests
+This is a project for personal use that aims to display concert events curated to my specific interests
 
 [View App](https://cnotify.herokuapp.com)
 
