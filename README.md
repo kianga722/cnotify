@@ -3,7 +3,7 @@ This is a project for personal use that aims to display concert events curated t
 
 [View App](https://cnotify.herokuapp.com)
 
-![screenshot](https://github.com/toptester1/cnotify/blob/master/public/images/screenshot.jpg)
+![screenshot](https://github.com/kianga722/cnotify/blob/master/public/images/screenshot.jpg)
 
 ## Summary
 
