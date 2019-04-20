@@ -103,7 +103,6 @@ CHRNS
 CHRSTN
 Cignature
 Clean Bandit
-Codeko
 Coldplay
 Collin McLoughlin
 Corey James
@@ -260,6 +259,7 @@ Jay Hardway
 Jay Cosmic
 Jaz Von D
 Jeff Sontag
+Jeffrey Sutorius
 Jenaux
 Jenn Blosil
 Jermaine Fleur
@@ -489,6 +489,7 @@ S9
 Sagan
 Sage
 Said The Sky
+Salvatore Ganacci
 Sam Feldt
 Sam Knight
 Sam Smith
@@ -507,7 +508,6 @@ Seven Lions
 Shaan
 Shapov
 Shanee
-Shermanology
 Sia
 Sick Individuals
 Sigrid
@@ -569,7 +569,6 @@ Timmy Trumpet
 Tobu
 Tommy Jayden
 Tom Bourra
-Tom Hangs
 Tom & Jame
 Tom and Jame
 Tom Swoon
@@ -637,5 +636,4 @@ Zack Martino
 Zaeden
 Zatox
 Zedd
-ZHU
 Zonderling
