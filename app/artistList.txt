@@ -1,4 +1,3 @@
-22Bullets
 3LAU
 3PM
 Above & Beyond
@@ -10,7 +9,6 @@ Aguelardo
 Aitor Blond
 Akon
 Alan Walker
-Albert Green
 Albert Neve
 Alessia Cara
 Alesso
@@ -74,9 +72,7 @@ Bodhi Jones
 Boehm
 Borgeous
 Borgore
-Bougenvilla
 Braken
-Brandon Mignacca
 Breathe Carolina
 Bright Lights
 Brooks
@@ -153,7 +149,6 @@ DJ Albert Green
 DJ KUBA
 DJ Snake
 DJ Vice
-DOLF
 Don Diablo
 Dougal
 Drako
@@ -163,7 +158,6 @@ Dr Shiver
 DSTAR
 Dua Lipa
 DubVision
-Dux n Bass
 DVBBS
 Dylan Dunlap
 Dzasko
@@ -193,7 +187,6 @@ Fisnik
 Flipboitamidles
 Florian Picasso
 F.O.O.L
-Frank Pole
 Friendzone
 Fluze
 FTampa
@@ -206,7 +199,6 @@ Ghostdragon
 Gianluca Vacchi
 Gidro
 Gigo'n'Migo
-Girls Love DJs
 GLDN
 Goshfather
 Greencoast
@@ -246,7 +238,6 @@ Jack Holiday
 Jack Howes
 Jack Miz
 Jack Taylor
-Jake Liedo
 Jake Wolfe
 Jakko
 Jakob Liedholm
@@ -325,7 +316,6 @@ Kygo
 Kyle Tree
 LA Riots
 Laidback Luke
-Lana Del Rey
 LarsM
 Lash
 Last Night
@@ -335,15 +325,14 @@ Lindsey Stirling
 Lil Jon
 LIONE
 LNY TNZ
-Loreno Mayer
 Lost Kings
 Lucas & Steve
 Lucas Nord
 Luis Rodriguez
 Lush & Simon
 Lux
-LVNDSCAPE
 LVTHER
+Madeon
 Madison Mars
 Maestro Harrell
 MAKJ
@@ -393,7 +382,6 @@ MØ
 Moiez
 Morgan Page
 MOTi
-Muzzaik
 Moyan
 Muffin
 Myon & Shayne 54
@@ -461,7 +449,6 @@ Ravitez
 Razihel
 R3hab
 Rencontre Nocturne
-REDFOO
 RedMoon
 Reeka
 Reunify
@@ -583,7 +570,6 @@ T-Pain
 Trademark
 Trevor Guthrie
 Trilane
-Triple M
 Tristam
 Tritonal
 Trouze
@@ -608,7 +594,6 @@ VICE
 Vicetone
 Victor Niglio
 Vigiland
-VINAI
 VIRTU
 Virtual Self
 VITIZE
@@ -628,7 +613,6 @@ Xuitcasecity
 Yaro
 Yeah Yeah Yeahs
 Years
-Yellow Claw
 YesYou
 Youngblood Hawke
 Yves V
