@@ -1,5 +1,6 @@
 3LAU
 3PM
+9Lives
 Above & Beyond
 Aevion
 Adam Lambert
@@ -36,6 +37,7 @@ Archie
 Ares Carter
 Arild Aas
 Armin van Buuren
+Arsen
 Arty
 Ashton Palmer
 Aspyer
@@ -102,6 +104,7 @@ Cormak
 Corti Organ
 Crankdat
 Crossnaders
+Cruickshank
 CRUNKZ
 Cuebrick
 Curbi
@@ -205,6 +208,7 @@ GuiigS
 Guru Josh
 Halogen
 Halsey
+Haneri
 Hardwell
 Headhunterz
 Heikki L
@@ -303,6 +307,7 @@ KRISM
 Krripton
 KSHMR
 KURA
+Kye Sones
 Kygo
 Kyle Tree
 LA Riots
@@ -317,6 +322,7 @@ Lil Jon
 LIONE
 LNY TNZ
 London Thor
+Loote
 Lost Kings
 Louis Tomlinson
 Lucas & Steve
@@ -325,6 +331,7 @@ Luis Rodriguez
 Lush & Simon
 Lux
 LVTHER
+Maddix
 Madeon
 Madison Mars
 Maestro Harrell
@@ -353,6 +360,7 @@ Maurice West
 Max Adrian
 Max Elto
 Max Landry
+Max Vangeli
 Maxim Schunk
 Meikle & Div Eadie
 Meron Ryan
@@ -387,6 +395,7 @@ Nero
 Nervo
 Nevlin
 Nevve
+Newtown Knife Gang
 Nicky Romero
 Nikki Williams
 Nikko
@@ -403,6 +412,7 @@ OLWIK
 Onderkoffer
 OneRepublic
 Otto Knows
+Patrick Key
 Patrick Moreno
 Paris & Simo
 Paris Blohm
@@ -443,6 +453,7 @@ Razihel
 R3hab
 Rencontre Nocturne
 RedMoon
+R3SPAWN
 Reunify
 Rhylex
 Rick Wonder
@@ -529,6 +540,7 @@ Taku-Hero
 Taylor Jones
 Taylr Renee
 Teemu
+Teseo
 The Chainsmokers
 The Him
 The Immortals
