@@ -175,7 +175,6 @@ Exit Friendzone
 Fafaq
 Faruk Sabanci
 Faul & Wad
-Fedde Le Grand
 Federico Seven
 Feenixpawl
 Felix Cartal
@@ -293,6 +292,7 @@ Kevin Drew
 Kevin Wild
 Khaskada
 Kill The Buzz
+Killogy
 klei
 KLYMVX
 Kokaholla
@@ -330,6 +330,7 @@ Luis Rodriguez
 Lush & Simon
 Lux
 LVTHER
+M. Bronx
 Maddix
 Madeon
 Madison Mars
@@ -465,7 +466,6 @@ RMCM
 Robbie Mendez
 Robert Falcon
 Robert J.C
-Robin Schulz
 Roman Aloy
 Rosendale
 Roy Orion
@@ -503,6 +503,7 @@ SirensCeol
 Sixth Sense
 Skrillex
 Skydrops
+Skyler Stonestreet
 Skytech
 Smallpools
 SNYC
@@ -604,7 +605,6 @@ WasteLand
 WHOLM
 Wiep
 WildVibes
-Wolfgang Gartner
 WW
 W&W
 Xan Griffin
