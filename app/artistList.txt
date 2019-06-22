@@ -49,6 +49,7 @@ Audien
 Audiobot
 AVE & EFX
 Avicii
+Axel Jones
 Axollo
 Axwanging
 Axwell
@@ -149,6 +150,7 @@ DJ KUBA
 DJ Snake
 DJ Vice
 Don Diablo
+Doublefast
 Dougal
 Drako
 Driftbomb
@@ -245,7 +247,6 @@ Jason Ross
 Jason Walker
 Jay Hardway
 Jay Cosmic
-Jaz Von D
 Jeff Sontag
 Jeffrey Sutorius
 Jenaux
@@ -263,7 +264,6 @@ John Martin
 Jonathan Mendelsohn
 Joni Fatora
 Jonny Rose
-Jordan Jay
 Joye Mill
 Jmi Sissoko
 Julian Jordan
@@ -322,6 +322,8 @@ LIONE
 LNY TNZ
 London Thor
 Loote
+Loren Gray
+Loreno Mayer
 Lost Kings
 Louis Tomlinson
 Lucas & Steve
@@ -460,6 +462,7 @@ Ricky Mears
 Rico & Miella
 Rigby
 Riggi & Piros
+Rita Ora
 RIVERO
 RL Grime
 RMCM
@@ -487,7 +490,6 @@ San Holo
 Sarah Charness
 Sebastian Back
 Sebastian Ingrosso
-Sebjak
 Seeb
 Selena Gomez
 Seven Lions
@@ -525,6 +527,7 @@ Steve Angello
 Steve Aoki
 Steve Forte Rio
 Steve James
+Still Young
 Stonebank
 Streex
 Strike Nine
@@ -593,6 +596,7 @@ Vee Brondi
 VICE
 Vicetone
 Victor Niglio
+Vigel
 Vigiland
 VIRTU
 Virtual Self
