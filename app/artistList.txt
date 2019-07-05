@@ -65,7 +65,6 @@ Bishop
 BISHØP
 Blackcode
 Blair
-Blanee
 Blasterjaxx
 BloueBart
 Bodhi Jones
@@ -176,7 +175,6 @@ Faruk Sabanci
 Federico Seven
 Feenixpawl
 Felix Cartal
-Felix Jaehn
 Fever
 Firebeatz
 Fisnik
@@ -528,7 +526,6 @@ SweetState
 Syn Cole
 Synchronice
 Syndec
-Taku-Hero
 Taylr Renee
 Teemu
 Teseo
